@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    text-align: center;
+    color: #fff;
+}
+
+.head, .btn{
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 5px;
+}
+
+.head{
+    padding: 0.5em;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+.colorName, .btn{
+    font-weight: 400;
+
+}
+
+.btn{
+    border: none;
+    font-size: 1.3em;
+    padding: 0.5em;
+    color: #fff;
+    cursor: pointer;
+}
